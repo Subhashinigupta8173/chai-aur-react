@@ -1,0 +1,39 @@
+.chatPage {
+    padding: 20px;
+  }
+  
+  .chatMessages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .messageInput {
+    display: flex;
+  }
+  
+  .messageInput input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .messageInput button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 10px 10px 0;
+    background-color: #3897f0;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,45 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+.leftSideHome{
+  flex: 0.155;
+  padding:35px 15px;
+  border-right: 1px solid #eee7e7;
+
+}
+.middleSide{
+  flex: 0.5; 
+  flex-direction: column;
+  border-left:1px solid  #eee7e7;
+}
+.rightSide{
+  flex: 0.345;
+}
+@media screen and (min-width:920px) and (max-width:1140){
+  .rightSide{
+    display:none;
+  }
+  .leftSideHome{
+    flex:0.2;
+  }
+  .middleSide{
+    flex:0.8;
+  }
+}
+@media screen and (min-width:320px) and (max-width:920px){
+  .rightSide{
+    display: none;
+  }
+  .leftSideHome{
+    display: none;
+  }
+  .middleSide{
+    flex:1;
+  }
+}
+
+
+

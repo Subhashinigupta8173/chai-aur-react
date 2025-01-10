@@ -1,0 +1,227 @@
+.MiddleSideHome {
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 25px px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.storyBlock {
+    width: 360px;
+    /* border: 1px solid red; */
+    height: 110px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    scrollbar-width: none;
+    overflow-x: auto;
+    
+    
+    /* overflow: hidden; /* Hide overflow */
+    /* overflow: scroll;  Always show scroll bars */  
+    /* overflow: auto; Show scroll bars only when necessary */
+} 
+/* .storyBlock::-webkit-scrollbar{
+    display: none;
+} */
+
+.storyParticular {
+    width: 66px;
+    height: 66px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+.imageDIv {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%; /* Ensure a full circle */
+    padding: 2px;
+    border: 2px solid purple;
+    display: flex; /* Add Flexbox */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+
+.statusImg {
+    width: 100%;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.profileName {
+    font-size: 10px;
+}
+/* ----------------------------- */
+.postSection {
+    /* border: 1px solid; */
+    width: 60%;
+    /* height: 30px */
+}
+
+.post {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom:20px ;
+    border-bottom:  1px solid #999999;
+
+}
+
+.postInfo {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Adjust the space between image and username */
+    padding: 5px 0;
+}
+
+.postInfoImg {
+    width: 38px;
+    height: 38px; /* Make sure to add height */
+    border-radius: 100%;
+
+}
+
+.postInfousername {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 38px; /* Match the line-height to the image height */
+}
+
+.timingInfo {
+    color: #999999;
+    font-size: 14px;
+}
+
+.postImg {
+    width: 100%;
+    height: 450px; /* Set a fixed height */
+    overflow: hidden; /* Ensure any overflow is hidden */
+}
+
+.postImhage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+.iconsBlock{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.leftIcon{
+    display: flex;
+    gap: 15px;
+}
+.likeImg{
+    width:20px ;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+.imageLike{
+    position: relative;
+}
+.likeSection {
+    width: 100%;
+    position: relative; /* Ensure the container is relative */
+}
+
+.imagesLike {
+    position: relative; /* Enable positioning for child elements */
+}
+
+.likeImg {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0; /* Position the first image */
+}
+
+.likeImg2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 15px; /* Overlap the second image slightly */
+}
+
+.noOfLikes {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 34px;
+    margin-top: 10px;
+    position: relative; /* Position relative to likeSection */
+}
+
+.postAbout {
+    width: 100%;
+    margin-left: 29px; /* Align with noOfLikes */
+    margin-top: 5px; /* Space between likes and name */
+    position: relative; /* Position relative to likeSection */
+    display: flex;
+}
+
+.postAboutName {
+    font-size: 14px;
+    font-weight: 500;
+}
+.InfoComment{
+    font-size: 14px;
+    
+    color: black;
+    margin-bottom: 1px;
+
+    }
+.noOfComment{
+    color: hwb(0 38% 60%);
+    margin-top:5px;
+    font-size: 14px;
+}
+.addComment{
+    color: hwb(0 43% 55%);
+    margin-top:5px;
+    font-size: 12px;
+}
+
+
+/* ------------------------ */
+@media screen and (min-width:32px) and (max-width:920px){
+    .MiddleSideHome {
+        width: 100%;
+        /* border: 1px solid; */
+        padding: 0px 1px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .storyBlock{
+        width: 100vw;
+
+    }
+    .postSection{
+        width: 100%;
+    }
+    .widthTopBar{
+        width: 100%;
+        display:inline;
+        padding: 0 20px;
+    }
+    .instalogoMobile{
+        width:103px;
+        margin: 0 20px;    
+    }
+}   

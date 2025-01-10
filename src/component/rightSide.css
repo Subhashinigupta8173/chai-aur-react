@@ -1,0 +1,102 @@
+.rightSideHome {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    padding-right: 90px;
+    padding-bottom: 20px; /* Add space at the end */
+}
+
+.topProfileRight {
+    display: flex;
+    width: 80%;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: auto; /* Push the content to the top, allowing the switch button to stay at the bottom */
+    justify-content: space-between;
+    padding-top: 30px; /* Remove top padding to touch the border */
+}
+
+.imageDivRightSide {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    display: flex; /* Center content */
+    align-items: center; /* Center content vertically */
+    /* justify-content: center; Center content horizontally */
+}
+
+.imageRightSideProfile {
+    width: 100%;
+    height: 100%; /* Ensure the image takes the full container size */
+    border-radius: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    margin-top: 7px;
+}
+
+.userNameBlock {
+    display: flex;
+    flex-direction: column; /* Stack name elements vertically */
+    
+    justify-content: center; /* Align text vertically center */
+}
+
+.userNameRightSide {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left; /* Align text to the left to touch the border */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.userFullName {
+    color: #999999;
+    font-size: 14px;
+    text-align: left; /* Align text to the left to touch the border */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.switchBtn {
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+    align-self: flex-end; /* Align button to the end of flex container */
+    margin-top: auto; /* Push the button to the bottom */
+    margin-bottom: 10px; /* Add space below the button */
+}
+
+.leftRightProfile {
+    display: flex;
+    gap: 20px;
+}
+
+.bottomRightSide {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.suggestedBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.followBlockRightSide {
+    display: flex;
+    flex-direction: column;
+    /* Reduce padding to decrease distance */
+    gap: 5px; /* Decrease gap between blocks */
+}
+
+.topProfileRightBottomProfile {
+    display: flex;
+    width: 100%;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: auto; /* Push the content to the top, allowing the switch button to stay at the bottom */
+    justify-content: space-between;
+    padding-top: 20px; /* Adjust padding to match reduced distance */
+}
